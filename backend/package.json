@@ -1,0 +1,37 @@
+{
+  "name": "courtside-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasierpastor/courtside-counter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hasierpastor/courtside-counter/issues"
+  },
+  "homepage": "https://github.com/hasierpastor/courtside-counter#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "jest": "^24.7.1",
+    "jsonschema": "^1.2.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.1.13",
+    "morgan": "^1.9.1",
+    "node-cron": "^2.0.3",
+    "supertest": "^4.0.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^5.1.0"
+  }
+}
